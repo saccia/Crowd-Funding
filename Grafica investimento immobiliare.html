@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Infografica Unicorn Italia: Crowdfunding Immobiliare</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;900&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        .gradient-bg {
+            background: linear-gradient(135deg, #4a00e0, #8e2de2);
+        }
+        .section-title {
+            font-weight: 900;
+            font-size: 2.5rem;
+            line-height: 1.2;
+        }
+        .card {
+            background-color: rgba(255, 255, 255, 0.05);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+        .step-number {
+            background-color: #a855f7; /* purple-500 */
+            color: white;
+            border-radius: 9999px;
+            width: 3rem;
+            height: 3rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 700;
+            font-size: 1.5rem;
+            flex-shrink: 0;
+            border: 2px solid white;
+        }
+    </style>
+</head>
+<body class="bg-gray-900 text-white">
+
+    <div class="min-h-screen p-4 sm:p-8">
+        <div class="max-w-4xl mx-auto">
+            
+            <!-- Header Section -->
+            <header class="text-center py-12">
+                <h1 class="text-5xl md:text-7xl font-black tracking-tight uppercase">UNICORN ITALIA</h1>
+                <p class="mt-4 text-xl md:text-2xl text-purple-300">Il Tuo Ingresso Semplice e Sicuro nel Crowdfunding Immobiliare</p>
+            </header>
+
+            <!-- Introduction Section -->
+            <section class="my-12 p-8 rounded-2xl card text-center">
+                 <h2 class="text-3xl font-bold text-purple-300 mb-4">Cos'è il Lending Crowdfunding Immobiliare?</h2>
+                 <p class="text-lg max-w-2xl mx-auto">
+                     Un sistema innovativo per finanziare progetti immobiliari concreti. Tu investi, e in cambio ricevi una rendita mensile e la restituzione del capitale alla scadenza. Semplice, trasparente e regolamentato dalla CONSOB.
+                 </p>
+            </section>
+            
+            <!-- How it Works Section -->
+            <section class="my-16">
+                <h2 class="section-title text-center mb-12 text-white">Come Funziona</h2>
+                <div class="space-y-8">
+                    <!-- Step 1 & 2 -->
+                    <div class="grid md:grid-cols-2 gap-8">
+                        <div class="p-6 rounded-2xl card flex items-center space-x-4">
+                            <div class="step-number">1</div>
+                            <div>
+                                <h3 class="font-bold text-xl">Registrati e Deposita</h3>
+                                <p class="text-purple-200">Iscriviti gratuitamente sulla piattaforma e versa il capitale che vuoi investire.</p>
+                            </div>
+                        </div>
+                        <div class="p-6 rounded-2xl card flex items-center space-x-4">
+                            <div class="step-number">2</div>
+                            <div>
+                                <h3 class="font-bold text-xl">Scegli il Progetto</h3>
+                                <p class="text-purple-200">Esplora le opportunità immobiliari e seleziona quella più adatta a te.</p>
+                            </div>
+                        </div>
+                    </div>
+                     <!-- Step 3 & 4 -->
+                     <div class="grid md:grid-cols-2 gap-8">
+                        <div class="p-6 rounded-2xl card flex items-center space-x-4">
+                            <div class="step-number">3</div>
+                            <div>
+                                <h3 class="font-bold text-xl">Investi</h3>
+                                <p class="text-purple-200">Partecipa al progetto con un investimento minimo a partire da 1.000 €.</p>
+                            </div>
+                        </div>
+                        <div class="p-6 rounded-2xl card flex items-center space-x-4">
+                            <div class="step-number">4</div>
+                            <div>
+                                <h3 class="font-bold text-xl">Guadagna Ogni Mese</h3>
+                                <p class="text-purple-200">Ricevi interessi mensili accreditati direttamente sul tuo conto.</p>
+                            </div>
+                        </div>
+                    </div>
+                     <!-- Step 5 -->
+                     <div class="flex justify-center">
+                         <div class="p-6 rounded-2xl card flex items-center space-x-4 md:w-1/2">
+                            <div class="step-number">5</div>
+                            <div>
+                                <h3 class="font-bold text-xl">Recupera il Capitale</h3>
+                                <p class="text-purple-200">Alla scadenza, ti viene restituito l'intero capitale investito.</p>
+                            </div>
+                        </div>
+                     </div>
+                </div>
+            </section>
+
+            <!-- Investment Example Section -->
+            <section class="my-16 p-8 rounded-2xl card">
+                 <h2 class="section-title text-center mb-8 text-white">Esempio di Rendita</h2>
+                <div class="flex flex-col md:flex-row justify-around items-center text-center space-y-8 md:space-y-0">
+                    <div class="flex flex-col items-center">
+                        <span class="text-purple-300 text-lg">Investimento</span>
+                        <span class="text-4xl font-bold">100.000 €</span>
+                    </div>
+                    <div class="text-2xl font-thin text-purple-400">&rarr;</div>
+                    <div class="flex flex-col items-center">
+                        <span class="text-purple-300 text-lg">Rendimento Annuo Lordo (7%)</span>
+                        <span class="text-4xl font-bold">7.000 €</span>
+                    </div>
+                    <div class="text-2xl font-thin text-purple-400">&rarr;</div>
+                     <div class="flex flex-col items-center">
+                        <span class="text-purple-300 text-lg">Rendita Mensile Netta*</span>
+                        <span class="text-4xl font-bold">~ 431 €</span>
+                        <span class="text-xs text-gray-400">*Tassazione al 26%</span>
+                    </div>
+                </div>
+            </section>
+            
+            <!-- Why Unicorn Section -->
+            <section class="my-16">
+                <h2 class="section-title text-center mb-12 text-white">Perché Scegliere Unicorn</h2>
+                <div class="grid md:grid-cols-3 gap-8 text-center">
+                    <div class="p-6 rounded-2xl card">
+                        <div class="w-16 h-16 gradient-bg rounded-full mx-auto flex items-center justify-center mb-4">
+                            <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                        </div>
+                        <h3 class="font-bold text-xl">Selezione Accurata</h3>
+                        <p class="text-purple-200 mt-2">Valutiamo e selezioniamo solo i progetti immobiliari più solidi e promettenti.</p>
+                    </div>
+                    <div class="p-6 rounded-2xl card">
+                        <div class="w-16 h-16 gradient-bg rounded-full mx-auto flex items-center justify-center mb-4">
+                            <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 9V7a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2m2 4h10a2 2 0 002-2v-6a2 2 0 00-2-2H9a2 2 0 00-2 2v6a2 2 0 002 2zm7-5a2 2 0 11-4 0 2 2 0 014 0z"></path></svg>
+                        </div>
+                        <h3 class="font-bold text-xl">Mercato Secondario</h3>
+                        <p class="text-purple-200 mt-2">Hai bisogno di liquidità? Vendi la tua quota ad altri investitori prima della scadenza.</p>
+                    </div>
+                    <div class="p-6 rounded-2xl card">
+                        <div class="w-16 h-16 gradient-bg rounded-full mx-auto flex items-center justify-center mb-4">
+                            <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 17v-2m3 2v-4m3 4v-6m2 10H7a2 2 0 01-2-2V7a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path></svg>
+                        </div>
+                        <h3 class="font-bold text-xl">Track Record Positivo</h3>
+                        <p class="text-purple-200 mt-2">Capitale e interessi sempre restituiti. Il nostro storico di successi parla per noi.</p>
+                    </div>
+                </div>
+            </section>
+            
+            <!-- CTA Section -->
+            <section class="text-center py-12">
+                <h2 class="section-title text-center mb-4 text-white">Inizia Ora.</h2>
+                <p class="text-xl text-purple-200 mb-8 max-w-2xl mx-auto">Clicca qui sotto per scoprire i progetti disponibili e iniziare a costruire la tua rendita.</p>
+                <div class="my-10">
+                    <a href="https://www.unicornitalia.it" target="_blank" class="gradient-bg text-white font-bold text-xl py-4 px-10 rounded-full transition-transform duration-300 ease-in-out hover:scale-105 inline-block shadow-lg hover:shadow-purple-500/50">
+                        Scopri i Progetti
+                    </a>
+                </div>
+                <div class="flex flex-col sm:flex-row items-center justify-center gap-x-8 gap-y-4 mt-12">
+                    <p class="text-lg font-semibold"><a href="https://www.unicornitalia.it" target="_blank" class="hover:text-purple-300 transition-colors">www.unicornitalia.it</a></p>
+                    <p class="text-lg"><a href="mailto:nicolasaccia@unicornitalia.com" class="hover:text-purple-300 transition-colors">info@unicornitalia.it</a></p>
+                    <p class="text-lg">+39 348 000 3108</p>
+                </div>
+            </section>
+            
+        </div>
+    </div>
+
+</body>
+</html>
